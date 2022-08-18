@@ -1,0 +1,109 @@
+.display-amount {
+    margin-top: 20px;
+}
+
+
+.depo-balance-withdraw {
+    /* background-color: black; */
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+
+.Deposit {
+    text-align: center;
+    background-color: aqua;
+    padding: 5px;
+    margin: 5px;
+    margin-right: 10px;
+    width: 100%;
+}
+
+.Deposit h2 {
+    font-size: 40px;
+}
+
+.balance {
+    text-align: center;
+    background-color: lightpink;
+    padding-top: 5px;
+    margin-top: 5px;
+    margin-right: 10px;
+    width: 100%;
+}
+
+.balance h2 {
+    font-size: 30px;
+}
+
+.withdraw {
+    text-align: center;
+    background-color: lightslategrey;
+    padding: 5px;
+    margin: 5px;
+    width: 100%;
+}
+
+.depo-balance-withdraw {}
+
+#heading {
+    text-align: center;
+
+}
+
+.deposit-field {
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+    background-color: blue;
+    width: 50%;
+    padding-bottom: 10px;
+    color: aliceblue;
+}
+
+.deposit-field h1 {
+    font-size: 35px;
+}
+
+.Withdraw-field {
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+    background-color: lightgreen;
+    width: 50%;
+    padding-bottom: 10px;
+    color: blueviolet;
+    margin-left: 10px;
+}
+
+.Withdraw-field h1 {
+    font-size: 35px;
+}
+
+.btn-field {
+    text-align: center;
+    align-items: center;
+    /* background-color: red; */
+    width: 100%;
+
+    display: flex;
+}
+
+.btn-deposit {
+    margin-top: 10px;
+
+}
+
+.btn-withdraw {
+    margin-top: 10px;
+}
+
+.deposit-input {
+    width: 50%;
+    height: 30px;
+}
+
+.withdraw-input {
+    width: 50%;
+    height: 30px;
+}

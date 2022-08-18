@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank chart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 id="heading">This is my <span>Money Calculator</span></h1>
+    <main>
+        <section class="display-amount">
+            <div class="depo-balance-withdraw">
+                <div class="Deposit">
+                    <h1>Deposit</h1>
+                    <h2>$ <span id="deposit-total">00</span></h2>
+                </div>
+                <div class="balance">
+                    <h1>Balance</h1>
+                    <h2>$ <span id="balance-total">500</span></h2>
+                </div>
+                <div class="withdraw">
+                    <h1>Withdraw</h1>
+                    <h2>$ <span id="withdraw-total">00</span></h2>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="btn-field">
+                <div class="deposit-field">
+                    <h1>Deposit</h1>
+                    <input class="deposit-input" type="text" name="" id="depositinput"
+                        placeholder="Write your Deposit money">
+                    <div><button id="bt-depo" class="btn-deposit">Deposit</button></div>
+                </div>
+                <div class="Withdraw-field">
+                    <h1>Withdraw</h1>
+                    <input class="withdraw-input" type="text" name="" id="withdrawinputid"
+                        placeholder="Write your withdraw money">
+                    <div> <button id="btnwithdraw" class="btn-withdraw">withdraw</button></div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+    <script src="withdraw.js"></script>
+</body>
+
+</html>
